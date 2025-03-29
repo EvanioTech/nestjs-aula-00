@@ -9,6 +9,8 @@ export const envSchema = z.object({
   JWT_EXPIRATION: z.string().default(""),
   JWT_REFRESH_SECRET: z.string().default(""),
   JWT_REFRESH_EXPIRATION: z.string().default(""),
+  JWT_PUBLIC_KEY: z.string().default(""),
+  JWT_PRIVATE_KEY: z.string().default(""),
 });
 
 
